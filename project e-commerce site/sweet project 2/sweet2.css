@@ -1,0 +1,29 @@
+
+.bg-primary {
+    background-color: #a90bdf!important;
+}
+
+.shopping{
+	display: grid;
+	grid-template-columns: 1fr 50px;
+	margin-left: 1586px;
+	position:relative;
+	text-align: right;
+	float: right;
+
+}
+.shopping img{
+	width:40px;
+}
+.shopping span{
+	background-color: red;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	position: absolute;
+	top:5px;
+	left: 40%;
+	padding: 3px 10px;
+}
